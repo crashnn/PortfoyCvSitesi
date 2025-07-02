@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/anasayfa.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <title id="brandName">Arda Tuna Demir</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top py-3">
+    <div class="container" style="margin-right: 190px;">
+      <a class="navbar-brand" href="anasayfa.html" id="brandName">Arda Tuna Demir</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav fw-semibold">
+          <a class="nav-link" href="#anasayfa" id="navHome">Anasayfa</a>
+          <a class="nav-link" href="#hakkimda" id="navAbout">Hakkımda</a>
+          <a class="nav-link" href="#proje" id="navProjects">Projelerim</a>
+          <a class="nav-link" href="#detay" id="navDetails">Proje Detayları</a>
+          <a class="nav-link" href="#iletisim" id="navContact">İletişim</a>
+        </div>
+      </div>
+    </div>
+    <div class="flags">
+      <a role="button"><img src="https://flagcdn.com/80x60/tr.png" width="35" height="auto" alt="Turkey"
+          id="flagTR"></a>
+      <a role="button"><img src="https://flagcdn.com/80x60/gb.png" width="35" height="auto" alt="United Kingdom"
+          id="flagEN"></a>
+    </div>
+  </nav>
+
+  <section class="min-vh-100 d-flex flex-column justify-content-center align-items-center hero" id="anasayfa">
+    <div class="text-center container">
+      <div class="carousel-container">
+        <div id="carouselHero" class="carousel slide mb-4" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-inner rounded-3 overflow-hidden">
+            <div class="carousel-item active ">
+              <img src="img/anasayfapulsefit.jpg" class="d-block w-100 bg-color-dark opacity-50" alt="Pulsefit">
+              <div class="carousel-caption d-flex flex-column justify-content-center align-items-center ">
+                <div class="text-center mb-5">
+                  <h2 class="carousel-title mb-2 mt-5" id="carouselFitnessTitle">FITNESS ARAYÜZ TASARIMI</h2>
+                  <small class="carousel-caption-text" id="carouselFitnessCaption">FIGMA ile tasarlandı</small>
+                </div>
+                <div class="mt-auto">
+                  <a href="pulsefit.html" class="btn btn-light px-4 py-2 fw-semibold rounded-pill"
+                    id="btnPulsefit">İncelemek İçin Tıklayın</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="img/depo360.jpg" class="d-block w-100 bg-color-dark opacity-50" alt="Pulsefit">
+              <div class="carousel-caption d-flex flex-column justify-content-center align-items-center ">
+                <div class="text-center mb-5 ">
+                  <h2 class="carousel-title mb-2 mt-5" id="carouselStockTitle">STOK TAKİP UYGULAMASI</h2>
+                  <small class="carousel-caption-text" id="carouselStockCaption">PHP & SQL ile geliştirildi</small>
+                </div>
+                <div class="mt-auto">
+                  <a href="depo360.html" class="btn btn-light px-4 py-2 fw-semibold rounded-pill"
+                    id="btnDepo360">İncelemek İçin
+                    Tıklayın</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="img/mimarsitesifoto.jpg" class="d-block w-100 bg-color-dark opacity-50" alt="Mimar Sitesi">
+              <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                <div class="text-center mb-5">
+                  <h2 class="carousel-title mb-2 mt-5" id="carouselMimarTitle">MİMAR SİTESİ TASARIMI</h2>
+                  <small class="carousel-caption-text" id="carouselMimarCaption">Basit HTML, CSS ile tasarlandı</small>
+                </div>
+                <div class="mt-auto">
+                  <a href="mimarisite.html" class="btn btn-light px-4 py-2 fw-semibold rounded-pill"
+                    id="btnMimar">İncelemek İçin Tıklayın</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="img/vielaanasayfa.jpg" class="d-block w-100 bg-color-dark opacity-50" alt="Viela">
+              <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                <div class="text-center mb-5">
+                  <h2 class="carousel-title mb-2 mt-5" id="carouselVielaTitle">DİYETİSYEN OTOMASYONU</h2>
+                  <small class="carousel-caption-text" id="carouselVielaCaption">C# ve Windows Forms ile
+                    geliştirildi</small>
+                </div>
+                <div class="mt-auto">
+                  <a href="viela.html" class="btn btn-light px-4 py-2 fw-semibold rounded-pill" id="btnViela">İncelemek
+                    İçin Tıklayın</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden" id="prev">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden" id="next">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <p class="fw-bolder display-3 mb-3 golgeHero" id="portfolioTitle">Portfölyo Tanıtımı</p>
+      <h5 class="fs-3 fw-semibold  mb-4 golgeHero" id="portfolioRole">Front End Intern</h5>
+      <p class="lead fw-normal text-light fst-italic" id="portfolioQuote">“Adım adım tasarlıyorum tecrübelerimi
+        geliştiriyorum.”</p>
+
+      <a href="cv/ARDA_TUNA_TR.pdf" class="btn rounded-5 mt-3 css-button-sliding-to-bottom--blue" download
+        id="btnCvTr">🇹🇷 Türkçe Özgeçmişi İndir</a>
+      <a href="cv/ARDA_TUNA_EN.pdf" class="btn rounded-5 mt-3 css-button-sliding-to-bottom--blue" download
+        id="btnCvEn">🌍 İngilizce Özgeçmişi İndir</a>
+
+      <div class="mt-4">
+        <a href="https://github.com/crashnn" target="_blank" class="me-3 text-light fs-4" id="iconGithub"><i
+            class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/ardatunademir/" target="_blank" class="me-3 text-light fs-4"
+          id="iconLinkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://instagram.com/simplifyarda" target="_blank" class="text-light fs-4" id="iconInstagram"><i
+            class="bi bi-instagram"></i></a>
+      </div>
+      <a href="#hakkimda" class="text-light mt-5 d-block">
+        <i class="bi bi-chevron-double-down fs-1 bounce"></i>
+      </a>
+    </div>
+  </section>
+  <section class="container py-4" id="hakkimda">
+    <div class="text-center pt-5 pb-3">
+      <h2 class="text-uppercase fw-bold" id="aboutTitle">Hakkımda</h2>
+      <p id="aboutText">Merhaba, ben Arda Tuna Demir. Doğuş Üniversitesi Web Tasarımı Ve Kodlama 2.sınıf öğrencisiyim.
+        Front-End
+        alanında
+        kendimi geliştirmeye adamış,
+        teknolojiye meraklı bir yazılımcıyım. Web arayüzleri tasarlarken hem estetik hem de kullanıcı deneyimini ön
+        planda tutmayı hedefliyorum.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="img/kesilmiş resim.png" class="img-fluid ">
+      </div>
+      <div class="col lg-7 offset-lg-1">
+        <p class="lh-lg" id="aboutSkills">HTML, CSS, JavaScript,PHP gibi temel teknolojilerin yanı sıra Bootstrap ve
+          Figma gibi araçlarla
+          projeler geliştiriyorum.
+          Kod yazmak benim için sadece bir iş değil; aynı zamanda yaratıcı bir ifade biçimi. Öğrenmeye ve üretmeye açık
+          bir geliştiriciyim.</p>
+        <h3 class="fw-bold fs-4" id="skillsTitle">Yetenekler</h3>
+        <p class="fs-4 mb-0">HTML</p>
+        <div class="progress mb-4">
+          <div class="progress-bar progress-bar-striped bg-success" style="width: 100%;">100%</div>
+        </div>
+        <p class="fs-4 mb-0">Css</p>
+        <div class="progress mb-4">
+          <div class="progress-bar progress-bar-striped bg-danger" style="width: 75%;">75%</div>
+        </div>
+        <p class="fs-4 mb-0">Javascript</p>
+        <div class="progress mb-4">
+          <div class="progress-bar progress-bar-striped bg-primary" style="width: 25%;">25%</div>
+        </div>
+        <p class="fs-4 mb-0">PHP</p>
+        <div class="progress mb-4">
+          <div class="progress-bar progress-bar-striped " style="width: 50%; background-color: purple;">50%</div>
+        </div>
+        <p class="fs-4 mb-0">Bootstrap 5</p>
+        <div class="progress mb-4">
+          <div class="progress-bar progress-bar-striped bg-dark" style="width: 50%;">50%</div>
+        </div>
+        <p class="fs-4 mb-0">Figma</p>
+        <div class="progress mb-4">
+          <div class="progress-bar progress-bar-striped bg-warning" style="width: 75%;">75%</div>
+        </div>
+        <p class="fs-4 mb-0">C#</p>
+        <div class="progress mb-4">
+          <div class="progress-bar progress-bar-striped bg-info" style="width: 50%;">50%</div>
+        </div>
+      </div>
+      <a href="#proje" class="text-light  d-block text-center">
+        <i class="bi bi-chevron-double-down fs-1 bounce text-dark"></i>
+      </a>
+    </div>
+  </section>
+
+  <section id="proje" class="bg-dark py-5">
+    <div class="container py-4">
+      <div class="text-center text-white py-5">
+        <h2 class="text-uppercase fw-bold text-white" id="projectsTitle">Projelerim</h2>
+        <p id="projectsText">Geliştirme sürecinde öğrendiğim teknolojileri gerçek projelerde uygulayarak kendimi
+          pekiştirdim.
+          Aşağıda, kullanıcı dostu arayüzler ve fonksiyonel çözümler üretmeye çalıştığım bazı örnek çalışmaları
+          bulabilirsiniz.</p>
+      </div>
+      <div class="row pb-5">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img src="img/anasayfapulsefit.jpg" class="img-fluid img-thumbnail">
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img src="img/depo360.jpg" class="img-fluid img-thumbnail">
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img src="img/mimarsitesifoto.jpg" class="img-fluid img-thumbnail">
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img src="" class="img-fluid img-thumbnail">
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img src="img/girisviela.jpg" class="img-fluid img-thumbnail">
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <img src="" class="img-fluid img-thumbnail">
+        </div>
+      </div>
+      <a href="#detay" class="text-light mt-1 d-block text-center">
+        <i class="bi bi-chevron-double-down fs-1 bounce"></i>
+      </a>
+    </div>
+  </section>
+
+  <section id="detay" class="py-0">
+    <div class="container py-5">
+      <div class="text-center py-5">
+        <h2 class="text-uppercase fw-bold" id="detailsTitle">Proje Detayları</h2>
+        <p class="text-dark" id="detailsText">Her projenin arkasında farklı bir fikir, ihtiyaç ve çözüm süreci yatıyor.
+          Bu bölümde
+          projelerin işlevselliği,
+          kullandığım teknolojiler ve tasarım süreçleriyle ilgili kısa açıklamalara ulaşabilirsiniz.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="img/pulsefit tasarım.jpg" class="card-img">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2" id="detail1Title">Figma İle Fitness Takip Web Sitesi</h5>
+              <p id="detail1Text">Kullanıcıların spor rutinlerini kaydedip ilerlemelerini takip etmelerini sağlayan bir
+                arayüz tasarımı.
+                Figma ile tasarlandı, mobil uyumlu ve sade bir deneyim sunmayı amaçlıyor.</p>
+              <a href="pulsefit.html" class="btn btn-light" id="detail1Link">Devamını Oku...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="img/depo360panel.jpg" class="card-img">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2" id="detail2Title">Veritabanlı Stok Takip Uygulaması Depo360</h5>
+              <p id="detail2Text">Ürün giriş-çıkışlarını kolayca yönetmeyi sağlayan, PHP tabanlı ve SQL bağlantılı
+                bir stok takip çözümü. Admin paneli ve filtreleme özellikleri içeriyor.</p>
+              <a href="depo360.html" class="btn btn-light" id="detail2Link">Devamını Oku...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="img/vielaanasayfa.jpg" class="card-img">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2" id="detail3Title">Viela Diyetisyen Otomasyonu</h5>
+              <p id="detail3Text">Diyetisyenler için geliştirilmiş, ekip çalışması ile oluşturulmuş, kullanıcı dostu bir
+                otomasyon
+                sistemidir. C# diliyle yazılmış ve SQL veritabanı ile entegre çalışır.
+                Admin paneli sayesinde kullanıcı rolleri, veri filtreleme ve kontrol işlemleri pratik bir şekilde
+                yapılabilir. Kliniklerde zaman tasarrufu ve düzenli takip imkanı sunar.</p>
+              <a href="viela.html" class="btn btn-light" id="detail3Link">Devamını Oku...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="img/mimarsitesifoto.jpg" class="card-img">
+            <div class="card-body">
+              <h5 class="card-title text-center py-2" id="detail4Title">Mimar WebSitesi Arkline Mimarlık</h5>
+              <p id="detail4Text">Kurumsal vitrin amacıyla geliştirilen, kullanıcı dostu bir mimar web sitesi.
+                Tasarım odaklı içerik sunumu, modern tipografi ve galeri desteğiyle yapıldı.</p>
+              <a href="mimarisite.html" class="btn btn-light" id="detail4Link">Devamını Oku...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#iletisim" class="text-dark mt-1 d-block text-center">
+        <i class="bi bi-chevron-double-down fs-1 bounce"></i>
+      </a>
+    </div>
+  </section>
+
+  <section id="iletisim" class="bg-dark py-5">
+    <div class="container text-white py-5">
+      <div class="text-center py-5">
+        <h2 class="text-uppercase fw-bold" id="contactTitle">İletişim</h2>
+        <p id="contactText">Birlikte çalışmak, projeler hakkında konuşmak veya bana yol göstermek istersen aşağıdaki formudoldurabilirsin.Tüm mesajları dikkatle okuyorum ve en kısa sürede geri dönüş yapıyorum.</p>
+
+      </div>
+      <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11 mx-auto mb-3 py-3">
+        <form action="https://formspree.io/f/mvgralwb" method="POST">
+          <div class="mb-4">
+            <label for="" class="form-label fw-semibold" id="labelName">Ad Soyad</label>
+            <input type="text" name="name" class="form-control">
+          </div>
+          <div class="mb-4">
+            <label for="" name="email" class="form-label fw-semibold">E-mail</label>
+            <input type="email" class="form-control">
+          </div>
+          <div class="mb-4">
+            <label for="" class="form-label fw-semibold" id="labelSubject">Konu</label>
+            <input type="text" name="subject" class="form-control">
+          </div>
+          <div class="mb-4">
+            <label for="" class="form-label fw-semibold" id="labelMessage">Açıklama</label>
+            <textarea type="text" name="message" class="form-control" rows="5"></textarea>
+          </div>
+          <button class="btn btn-light btn-md fw-semibold" id="btnSend">Gönder</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="py-3 bg-light">
+    <div class="text-center">
+      <p class="fs-5 mb-0 fw-semibold"><span id="footerText">Tüm hakları saklıdır</span> | <a
+          class="text-dark fst-italic fw-semibold" href="#anasayfa" id="footerLink">Arda Tuna Demir</a></p>
+    </div>
+  </section>
+
+  <script src="js/javascript.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/languagetranslation.js">  
+  </script>
+
+</body>
+
+</html>

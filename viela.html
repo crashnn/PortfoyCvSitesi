@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/anasayfa.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <title id="brandName">Arda Tuna Demir</title>
+  <style>
+    .hover-box {
+      position: relative;
+    }
+
+    .hover-box .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      opacity: 0;
+      transition: opacity .3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hover-box:hover .overlay {
+      opacity: 1;
+    }
+
+    .overlay-text {
+      color: #fff;
+      font-weight: 600;
+      font-size: 1.1rem;
+      text-align: center;
+      padding: 0 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#" id="brandName">Arda Tuna Demir</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav fw-semibold">
+          <a class="nav-link" href="anasayfa.html#anasayfa" id="navHome">Anasayfa</a>
+          <a class="nav-link" href="anasayfa.html#hakkimda" id="navAbout">Hakkımda</a>
+          <a class="nav-link" href="anasayfa.html#proje" id="navProjects">Projelerim</a>
+          <a class="nav-link" href="anasayfa.html#detay" id="navDetails">Proje Detayları</a>
+          <a class="nav-link" href="anasayfa.html#iletisim" id="navContact">İletişim</a>
+        </div>
+      </div>
+    </div>
+    <div class="flags">
+      <a role="button"><img src="https://flagcdn.com/80x60/tr.png" width="35" alt="Turkey" id="flagTR"></a>
+      <a role="button"><img src="https://flagcdn.com/80x60/gb.png" width="35" alt="United Kingdom" id="flagEN"></a>
+    </div>
+  </nav>
+
+  <section id="proje" class="py-5 bg-white mt-5">
+    <div class="container">
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+          <img src="img/vielalogo.png" style="width:500px;display:block;margin:auto;" class="img-fluid rounded shadow"
+            alt="Viela Logo">
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-3 fw-bold" style="font-family:'Bebas Neue',sans-serif;" id="projectTitle">Viela Diyetisyen
+            Otomasyonu</h2>
+          <p class="lead" id="projectText">VIELA, bireylere özel diyet programlarının kolayca yönetilebildiği, kullanıcı
+            dostu bir otomasyon sistemidir. Visual Studio C# (Windows Forms) ile geliştirilen ve Microsoft Access veri
+            tabanı bağlantısı olan bu proje, grup çalışması olarak hazırlanmıştır.</p>
+          <ul class="list-unstyled">
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i><span id="feat1">C# (Windows Forms) ile
+                geliştirilen masaüstü uygulama</span></li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i><span id="feat2">Access ile veri tabanı
+                bağlantısı</span></li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i><span id="feat3">Diyetisyen odaklı danışan
+                yönetim sistemi</span></li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i><span id="feat4">Kullanıcı adı ve şifreyle
+                güvenli oturum</span></li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i><span id="feat5">Otomatik liste takibi ve öneri
+                sistemi</span></li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i><span id="feat6">Anlaşılır ve sade arayüz
+                tasarım</span></li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i><span id="feat7">Hedefe yönelik planlama ve
+                raporlama kolaylığı</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="py-5 bg-white">
+        <div class="container">
+          <h2 class="fw-bold text-center mb-5" style="font-family:'Bebas Neue',sans-serif;" id="galleryTitle">Viela
+            Otomasyonu Arayüzleri</h2>
+          <div class="row g-4">
+            <div class="col-md-4 col-sm-6">
+              <div class="hover-box">
+                <img src="img/girisviela.jpg" class="img-fluid rounded shadow-sm w-100" alt="">
+                <div class="overlay"><span class="overlay-text" id="img1">Giriş Ekranı</span></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="hover-box">
+                <img src="img/anasayfaviela.jpg" class="img-fluid rounded shadow-sm w-100" alt="">
+                <div class="overlay"><span class="overlay-text" id="img2">Ana Sayfa</span></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="hover-box">
+                <img src="img/vieladanisanlistesi.jpg" class="img-fluid rounded shadow-sm w-100" alt="">
+                <div class="overlay"><span class="overlay-text" id="img3">Danışan Listesi</span></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="hover-box">
+                <img src="img/vieladiyetlistesi.jpg" class="img-fluid rounded shadow-sm w-100" alt="">
+                <div class="overlay"><span class="overlay-text" id="img4">Diyet Listesi</span></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="hover-box">
+                <img src="img/vielarandevuplanla.jpg" class="img-fluid rounded shadow-sm w-100" alt="">
+                <div class="overlay"><span class="overlay-text" id="img5">Randevu Planla</span></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="hover-box">
+                <img src="img/vielakitleindex.jpg" class="img-fluid rounded shadow-sm w-100" alt="">
+                <div class="overlay"><span class="overlay-text" id="img6">Kitle İndex</span></div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="hover-box">
+                <img src="img/vielacikis.jpg" class="img-fluid rounded shadow-sm w-100" alt="">
+                <div class="overlay"><span class="overlay-text" id="img7">Çıkış Ekranı</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5 p-4 bg-light rounded shadow-sm">
+            <h4 class="fw-bold" id="descriptionTitle">Açıklama</h4>
+            <p class="mb-0" id="descriptionText">Bu proje, sağlıklı yaşam hizmeti sunan uzmanların dijital ihtiyaçlarına
+              özel olarak geliştirilmiştir. Sistem; kullanıcı girişi, danışan yönetimi, diyet planlama, öneri sunumu ve
+              raporlama gibi temel işlevleri sade ve anlaşılır bir arayüzle sunar. Veri tabanı bağlantısı ve arayüz
+              tasarımı, kullanıcıyı yormayan ve hızlı erişim sağlayan yapısıyla dikkat çeker. Menü yapısı net, içerikler
+              ise kolay okunur şekilde sunulmuştur.</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="row text-center mt-5">
+        <div class="col-md-4 mb-4">
+          <div class="border rounded p-4 shadow-sm h-100">
+            <h5 class="fw-bold mb-3" id="colorsTitle">Kullandığım Renkler</h5>
+            <div class="d-flex justify-content-center gap-3">
+              <div style="width:40px;height:40px;background:#f57c00" title="#f57c00" class="rounded-circle"></div>
+              <div style="width:40px;height:40px;background:#ffffff" title="#ffffff"
+                class="rounded-circle border border-dark"></div>
+            </div>
+            <p class="mt-3 small text-muted" id="colorsText">Turuncu renk, canlılık ve enerji hissi vererek sağlıklı
+              yaşam temasını vurgular. Beyaz arka plan ise okunabilirliği artırır ve dikkat dağıtmadan içerikleri öne
+              çıkarır.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="border rounded p-4 shadow-sm h-100">
+            <h5 class="fw-bold mb-3" id="uxTitle">Kullanıcı Deneyimi</h5>
+            <p id="uxText">Danışan bilgileri, öneriler ve diyet programları kullanıcı dostu bir yapıda sunulmuştur.
+              Kategoriler, sade menülerle erişilebilir; kullanıcılar sistem içinde kaybolmaz. Görsel yoğunluk,
+              profesyonel görünüm ve kolay kullanım sağlar.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="border rounded p-4 shadow-sm h-100">
+            <h5 class="fw-bold mb-3" id="whyTitle">Neden Bu Proje?</h5>
+            <p id="whyText">Beslenme ve sağlık uzmanlarının dijital iş yükünü hafifletmek ve kişiye özel programları
+              düzenli tutabilmelerini sağlamak amacıyla geliştirilmiştir. Ayrıca bu grup projesi, yazılım becerilerimizi
+              gerçek bir sistem üzerinden test etmemize olanak tanımıştır.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-3 bg-light">
+    <div class="text-center">
+      <p class="fs-5 mb-0 fw-semibold"><span id="footerText">Tüm hakları saklıdır</span> | <a
+          class="text-dark fst-italic fw-semibold" href="#anasayfa" id="footerLink">Arda Tuna Demir</a></p>
+    </div>
+  </section>
+
+  <script src="js/javascript.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/languagetranslationviela.js">
+   
+  </script>
+</body>
+
+</html>
